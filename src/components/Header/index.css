@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: lightblue;
+  min-width: 100vw;
+}
+
+.logo-image {
+  height: 80px;
+}
+
+.menus-container {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+.menu-items {
+  margin-right: 20px;
+}
